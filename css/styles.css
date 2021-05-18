@@ -5,10 +5,29 @@
     padding: 0;
 }
 
+body {
+    background-color: #ffffff;
+    color: #212121;
+}
+
 /* селектор тега */
 ul { 
     list-style: none;
 }
 
+.logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+}
+
 /* классовый селектор */
 .container 
+
+/* селектор индентификатора */
+
+/* селектор наследника */
+
+/* селектор ребёнка*/
