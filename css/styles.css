@@ -1,4 +1,4 @@
-/* универсальный селектор */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -10,11 +10,17 @@ body {
     color: #212121;
 }
 
-/* селектор тега */
 ul { 
     list-style: none;
 }
 
+a { 
+    text-decoration: none;
+    color: #000000;
+   }
+
+/* Стиль шапки */
+/* Стиль логотипа */
 .logo {
     font-family: Raleway;
     font-style: normal;
@@ -22,12 +28,21 @@ ul {
     font-size: 26px;
     line-height: 31px;
 }
+.logo-blue {
+    color: #2196F3
+}
+/* Стиль ссылок */
+.link:hover,
+.link:focus {
+    color: #2196F3
+}
+.link.current {
+    color: #2196F3
+}
 
-/* классовый селектор */
-.container 
+/*  Стиль контактов*/
+.address:hover,
+.address:focus {
+    color: #2196F3
+}
 
-/* селектор индентификатора */
-
-/* селектор наследника */
-
-/* селектор ребёнка*/
