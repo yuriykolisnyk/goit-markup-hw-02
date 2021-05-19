@@ -10,30 +10,32 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <!-- Шапка -->
+    <!-- Верхняя панель -->
     <header>
-        <a href=" " class="logo"> <span class="logo-blue">Web</span>Studio</a>
-        <nav class="site-nav">
-            <ul>
-                <li> <a href="./index.html " class="link current">Студия</a> </li>
-                <li> <a href="./portfolio.html" class="link">Портфолио</a> </li>
-                <li> <a href=" " class="link">Контакты</a> </li>
+        <div class="header">
+        <a href=" " class="header-logo"> <span class="logo-blue">Web</span>Studio</a>
+        <nav>
+            <ul class="header-nav">
+                <li> <a href="./index.html " class="header-link-current">Студия</a> </li>
+                <li> <a href="./portfolio.html" class="header-link">Портфолио</a> </li>
+                <li> <a href=" " class="header-link">Контакты</a> </li>
             </ul>
         </nav>
-            <ul>
-                <li> <a href="malto:info@devstudio.com" class="address">info@devstudio.com</a> </li>
-                <li> <a href="tel:+380961111111" class="address">+38 096 111 11 11</a> </li>
+            <ul class="header-address">
+                <li> <a href="mailto:info@devstudio.com" class="header-address-grey">info@devstudio.com</a> </li>
+                <li> <a href="tel:+380961111111" class="header-address-grey">+38 096 111 11 11</a> </li>
             </ul>
+        </div>
     </header>
     <!-- Контент -->
     <main>
         <!-- Эффективные решения -->
-        <section>
+        <section class="container">
             <h1>Эффективные решения для вашего бизнеса</h1>
-            <button type="button">Заказать услугу</button>
+            <button type="button" class="cursor">Заказать услугу</button>
         </section>
         <!-- 4 пункта про нас -->
-        <section>
+        <section class="container">
            <!-- <h2>Наши особенности</h2> -->
             <ul>
                 <li>
@@ -55,7 +57,7 @@
             </ul>
         </section>
         <!-- Чем мы занимаесмя -->
-        <section>
+        <section class="container">
             <h2>Чем мы занимаемся</h2>
             <ul>
                 <li>
@@ -70,7 +72,7 @@
             </ul>
         </section>
         <!-- Наша команда-->
-        <section>
+        <section class="container">
             <h2>Наша команда</h2>
             <ul>
                 <li>
@@ -98,14 +100,16 @@
     </main>
     <!-- Нижняя панель -->
     <footer>
-        <a href=" " class="logo"><span class="logo-blue">Web</span>Studio</a>
+        <div class="footer">
+        <a href=" " class="footer-logo"><span class="logo-blue">Web</span>Studio</a>
         <address>
             <ul>
                 <li> <p>г. Киев, пр-т Леси Украинки, 26</p> </li>
-                <li> <a href="malto:info@example.com" class="address">info@example.com</a> </li>
-                <li> <a href="tel:+380991111111" class="address">+38 099 111 11 11</a> </li>
+                <li> <a href="mailto:info@example.com" class="footer-address-white">info@example.com</a> </li>
+                <li> <a href="tel:+380991111111" class="footer-address-white">+38 099 111 11 11</a> </li>
             </ul>
         </address>
+        </div>
     </footer>   
 </body>
 </html>

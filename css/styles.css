@@ -1,48 +1,95 @@
 
+/* Переменные */
+:root {
+    --black-color-text: #212121;
+    --black-color: #000000;
+    --white-color: #FFFFFF;
+    --blue-color: #2196F3;
+    --grey-color: #757575;
+    --main-font: 'Roboto', sans-serif;
+    --accent-font: 'Raleway', sans-serif;
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* Общие стили */
 body {
-    background-color: #ffffff;
-    color: #212121;
+    font-family: var(--main-font);
+    background-color: var(--white-color);
+    color: var(--black-color-text);
 }
 
-ul { 
-    list-style: none;
-}
-
-a { 
-    text-decoration: none;
-    color: #000000;
-   }
-
-/* Стиль шапки */
-/* Стиль логотипа */
-.logo {
-    font-family: Raleway;
-    font-style: normal;
+/* Стили верхней панели */
+.header-logo {
+    font-family: var(--accent-font);
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
+    color: var(--black-color);
 }
-.logo-blue {
-    color: #2196F3
+.header a {
+    text-decoration: none;
+    color: inherit;  
 }
-/* Стиль ссылок */
-.link:hover,
-.link:focus {
-    color: #2196F3
+.logo-blue,
+.header-link:hover,
+.header-link:focus,
+.header-address-grey:hover,
+.header-address-grey:focus,
+.header .header-link-current {
+    color: var(--blue-color);
 }
-.link.current {
-    color: #2196F3
+.header-address {
+    color: var(--grey-color);
+}
+/*  Стили контента */
+
+/* Общее для секций */
+.container {
+    width: 1200px;
+    margin: 0, auto;
+}
+/* Курсор pointer */
+.cursor {
+    cursor: pointer;
+    background-color: #F5F4FA;
+    color: var(--black-color-text);
+}
+.cursor:hover,
+.cursor:focus {
+    background-color: var( --blue-color);
+    color: var(--white-color)
 }
 
-/*  Стиль контактов*/
-.address:hover,
-.address:focus {
-    color: #2196F3
-}
 
+
+/* Стили нижней панели */
+.footer {
+    font-size: 14px;
+    line-height: 24px;
+    background-color: #2F303A;
+    color: #ffffff;
+}
+.footer a {
+    text-decoration: none;
+    color: inherit;  
+}
+    
+.footer-logo {
+    font-family: var(--accent-font);
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 31px;
+    color: var(--white-color);
+}
+.footer .footer-address-white {
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-address-white:hover,
+.footer-address-white:focus {
+    color: var(--blue-color);
+}
