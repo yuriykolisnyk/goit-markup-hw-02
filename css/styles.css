@@ -7,7 +7,6 @@
     --blue-color-text: #2196F3;
     --grey-color-text: #757575;
     --black-background-color: #2F303A;
-    --white-background-color: #FFFFFF;
     --grey-background-color: #F5F4FA;
     --main-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
@@ -23,7 +22,7 @@
 body {
     font-family: var(--main-font);
     color: var(--black-color-text);
-    background-color: var(--white-background-color);
+    background-color: var(--white-color);
     letter-spacing: 0.03em;
 }
 
