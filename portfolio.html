@@ -16,77 +16,80 @@
         <a href=" " class="header-logo"> <span class="logo-blue">Web</span>Studio</a>
         <nav>
             <ul class="header-nav">
-                <li> <a href="./index.html " class="header-link">Студия</a> </li>
-                <li> <a href="./portfolio.html" class="header-link-current">Портфолио</a> </li>
-                <li> <a href=" " class="header-link">Контакты</a> </li>
+                <li> <a href="./index.html " class="link header-link">Студия</a> </li>
+                <li> <a href="./portfolio.html" class="link header-link-current">Портфолио</a> </li>
+                <li> <a href=" " class="link header-link">Контакты</a> </li>
             </ul>
         </nav>
             <ul class="header-address">
-                <li> <a href="mailto:info@devstudio.com" class="header-address-grey">info@devstudio.com</a> </li>
-                <li> <a href="tel:+380961111111" class="header-address-grey">+38 096 111 11 11</a> </li>
+                <li> <a href="mailto:info@devstudio.com" class="link header-address-grey">info@devstudio.com</a> </li>
+                <li> <a href="tel:+380961111111" class="link header-address-grey">+38 096 111 11 11</a> </li>
             </ul>
         </div>
     </header>
     <!-- Контент -->
-    <main>
+    <main class="portfolio">
     <!-- <h1>Портфолио</h1>-->
-    <!-- <h2>Примеры работ</h2> -->
-        <section> <!-- кнопки на примеры работ-->
-            <ul>
-                <li> <button type="button" class="cursor">Все</button>
-                <li> <button type="button" class="cursor">Веб-сайты</button> 
-                <li> <button type="button" class="cursor">Приложения</button> 
-                <li> <button type="button" class="cursor">Дизайн</button>  
-                <li> <button type="button" class="cursor">Маркетинг</button>          
-            </ul>
-         <!-- Сами примеры работ-->
-            <ul>
-                <li>
-                    <img src="./images/portfolio/technokryak.jpg" alt="фото Технокряк" width="370" /> 
-                    <h3>Технокряк</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/star.jpg" alt="фото Постер New Orlean vs Golden Star" width="370" /> 
-                    <h3>Постер New Orlean vs Golden Star</h3>
-                    <p>Дизайн</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/seafood.jpg" alt="фото Ресторан Seafood" width="370" /> 
-                    <h3>Ресторан Seafood</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/prime.jpg" alt="фото Проект Prime" width="370" /> 
-                    <h3>Проект Prime</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/boxes.jpg" alt="фото Проект Boxes" width="370" /> 
-                    <h3>Проект Boxes</h3>
-                    <p>Приложение</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/borders.jpg" alt="фото Inspiration has no Borders" width="370" /> 
-                    <h3>Inspiration has no Borders</h3>
-                    <p>Веб-сайт</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/edition.jpg" alt="фото Издание Limited Edition" width="370" /> 
-                    <h3>Издание Limited Edition</h3>
-                    <p>Дизайн</p> 
-                </li>
-                <li> 
-                    <img src="./images/portfolio/lab.jpg" alt="фото Проект LAB" width="370" /> 
-                    <h3>Проект LAB</h3>
-                    <p>Маркетинг</p>
-                </li>
-                <li>
-                    <img src="./images/portfolio/business.jpg" alt="фото Growing Business" width="370" /> 
-                    <h3>Growing Business</h3>
-                    <p>Приложение</p>
-                </li>
-            </ul>
+        <section class="container"> <!-- Кнопки на примеры работ-->
+           <div class="portfolio-choice">
+                <ul>
+                    <li> <button type="button" class="button-portfolio">Все</button>
+                    <li> <button type="button" class="button-portfolio">Веб-сайты</button> 
+                    <li> <button type="button" class="button-portfolio">Приложения</button> 
+                    <li> <button type="button" class="button-portfolio">Дизайн</button>  
+                    <li> <button type="button" class="button-portfolio">Маркетинг</button>          
+                </ul>
+           </div>
+          <!-- <h2>Примеры работ</h2> -->
+           <div class="portfolio-works">
+                <ul>
+                    <li>
+                        <img src="./images/portfolio/technokryak.jpg" alt="фото Технокряк" width="370" /> 
+                        <h3 class="portfolio-item">Технокряк</h3>
+                        <p class="portfolio-form">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/star.jpg" alt="фото Постер New Orlean vs Golden Star" width="370" /> 
+                        <h3 class="portfolio-item">Постер New Orlean vs Golden Star</h3>
+                        <p class="portfolio-form">Дизайн</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/seafood.jpg" alt="фото Ресторан Seafood" width="370" /> 
+                        <h3 class="portfolio-item">Ресторан Seafood</h3>
+                        <p class="portfolio-form">Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/prime.jpg" alt="фото Проект Prime" width="370" /> 
+                        <h3 class="portfolio-item">Проект Prime</h3>
+                        <p class="portfolio-form">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/boxes.jpg" alt="фото Проект Boxes" width="370" /> 
+                        <h3 class="portfolio-item">Проект Boxes</h3>
+                        <p class="portfolio-form">Приложение</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/borders.jpg" alt="фото Inspiration has no Borders" width="370" /> 
+                        <h3 class="portfolio-item">Inspiration has no Borders</h3>
+                        <p class="portfolio-form">Веб-сайт</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/edition.jpg" alt="фото Издание Limited Edition" width="370" /> 
+                        <h3 class="portfolio-item">Издание Limited Edition</h3>
+                        <p class="portfolio-form">Дизайн</p> 
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/lab.jpg" alt="фото Проект LAB" width="370" /> 
+                        <h3 class="portfolio-item">Проект LAB</h3>
+                        <p class="portfolio-form">Маркетинг</p>
+                    </li>
+                    <li>
+                        <img src="./images/portfolio/business.jpg" alt="фото Growing Business" width="370" /> 
+                        <h3 class="portfolio-item">Growing Business</h3>
+                        <p class="portfolio-form">Приложение</p>
+                    </li>
+                </ul>
+           </div>
         </section>
     </main>
      <!-- Нижняя панель -->
@@ -94,13 +97,13 @@
         <div class="footer">
         <a href=" " class="footer-logo"><span class="logo-blue">Web</span>Studio</a>
         <address>
-            <ul>
+            <ul class="footer-address">
                 <li> <p>г. Киев, пр-т Леси Украинки, 26</p> </li>
-                <li> <a href="mailto:info@example.com" class="footer-address-white">info@example.com</a> </li>
-                <li> <a href="tel:+380991111111" class="footer-address-white">+38 099 111 11 11</a> </li>
+                <li> <a href="mailto:info@example.com" class="footer-link footer-address-white">info@example.com</a> </li>
+                <li> <a href="tel:+380991111111" class="footer-link footer-address-white">+38 099 111 11 11</a> </li>
             </ul>
         </address>
         </div>
-    </footer>     
+    </footer>       
 </body>
 </html>
