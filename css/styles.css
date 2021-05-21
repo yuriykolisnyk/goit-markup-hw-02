@@ -11,12 +11,6 @@
     --main-font: 'Roboto', sans-serif;
     --accent-font: 'Raleway', sans-serif;
 }
-/* Обнуляем по словам Сандры параметры страницы */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
 
 /* Общие стили */
 body {
@@ -24,6 +18,10 @@ body {
     color: var(--black-color-text);
     background-color: var(--white-color);
     letter-spacing: 0.03em;
+}
+
+.li-none {
+    list-style-type: none;
 }
 
 /* Стили верхней панели */
